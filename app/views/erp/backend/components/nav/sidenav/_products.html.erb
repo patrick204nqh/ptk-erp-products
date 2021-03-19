@@ -9,13 +9,13 @@
     </a>
     <ul class="nav nav-treeview">
         <li class="nav-item">
-            <a href="<%= erp.list_backend_products_products_path %>" class="nav-link">
+            <a href="<%= erp.list_backend_products_products_path %>" class="nav-link <%= check_controller_action(controller: 'erp/backend/products/products', action: 'list') ? 'active' : '' %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Products</p>
             </a>
         </li>
         <li class="nav-item">
-            <a href="<%= erp.list_backend_products_categories_path %>" class="nav-link">
+            <a href="<%= erp.list_backend_products_categories_path %>" class="nav-link <%= check_controller_action(controller: 'erp/backend/products/categories', action: 'list') ? 'active' : '' %>">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Categories</p>
             </a>

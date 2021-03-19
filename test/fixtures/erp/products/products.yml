@@ -1,0 +1,57 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  archived: false
+  short_description: MyString
+  long_description: MyText
+  sku: MyString
+  name: MyString
+  note: MyText
+  is_new: false
+  is_bestseller: false
+  is_deal: false
+  deal_from_date: 2021-03-19 13:21:40
+  deal_to_date: 2021-03-19 13:21:40
+  is_stock_inventory: false
+  meta_keywords: MyText
+  meta_description: MyText
+  is_sold_out: false
+  barcode: MyString
+  cost: 9.99
+  price: 9.99
+  deal_price: 9.99
+  deal_percent: 1
+  is_business_choices: false
+  is_top_business_choices: false
+  can_be_sold: false
+  can_be_purchased: false
+  stock_min: 9.99
+  stock_max: 9.99
+
+two:
+  archived: false
+  short_description: MyString
+  long_description: MyText
+  sku: MyString
+  name: MyString
+  note: MyText
+  is_new: false
+  is_bestseller: false
+  is_deal: false
+  deal_from_date: 2021-03-19 13:21:40
+  deal_to_date: 2021-03-19 13:21:40
+  is_stock_inventory: false
+  meta_keywords: MyText
+  meta_description: MyText
+  is_sold_out: false
+  barcode: MyString
+  cost: 9.99
+  price: 9.99
+  deal_price: 9.99
+  deal_percent: 1
+  is_business_choices: false
+  is_top_business_choices: false
+  can_be_sold: false
+  can_be_purchased: false
+  stock_min: 9.99
+  stock_max: 9.99
